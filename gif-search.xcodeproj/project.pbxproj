@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384109C5AFEB1DD76D5A45D6 /* Pods_gif_search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7953912D2C6E0025C9528FAC /* Pods_gif_search.framework */; };
 		83D6487128FDDE96007DB2D0 /* gif_searchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6487028FDDE96007DB2D0 /* gif_searchApp.swift */; };
 		83D6487328FDDE96007DB2D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6487228FDDE96007DB2D0 /* ContentView.swift */; };
 		83D6487528FDDE98007DB2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D6487428FDDE98007DB2D0 /* Assets.xcassets */; };
 		83D6487828FDDE98007DB2D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D6487728FDDE98007DB2D0 /* Preview Assets.xcassets */; };
 		83D6487A28FDDE98007DB2D0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6487928FDDE98007DB2D0 /* Persistence.swift */; };
 		83D6487D28FDDE98007DB2D0 /* gif_search.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83D6487B28FDDE98007DB2D0 /* gif_search.xcdatamodeld */; };
+		83D6488528FDE498007DB2D0 /* GiphyAPICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6488428FDE498007DB2D0 /* GiphyAPICalls.swift */; };
+		83D6488828FDE67C007DB2D0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6488728FDE67C007DB2D0 /* Main.swift */; };
+		83D6488B28FDFA75007DB2D0 /* GifCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6488A28FDFA75007DB2D0 /* GifCellViewModel.swift */; };
+		83D6488D28FDFBEE007DB2D0 /* GifListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6488C28FDFBEE007DB2D0 /* GifListViewModel.swift */; };
+		83D6488F28FDFE4C007DB2D0 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6488E28FDFE4C007DB2D0 /* GifCell.swift */; };
+		83D6489328FE473B007DB2D0 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6489228FE473B007DB2D0 /* ImageSaver.swift */; };
+		83D6489528FEEC59007DB2D0 /* SaveModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6489428FEEC59007DB2D0 /* SaveModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C50CF4A7EDE02A5D55E05B /* Pods-gif-search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-search.release.xcconfig"; path = "Target Support Files/Pods-gif-search/Pods-gif-search.release.xcconfig"; sourceTree = "<group>"; };
+		6A6E500CC971BAE7DDF3F1D2 /* Pods-gif-search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-search.debug.xcconfig"; path = "Target Support Files/Pods-gif-search/Pods-gif-search.debug.xcconfig"; sourceTree = "<group>"; };
+		7953912D2C6E0025C9528FAC /* Pods_gif_search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gif_search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6486D28FDDE96007DB2D0 /* gif-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gif-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6487028FDDE96007DB2D0 /* gif_searchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif_searchApp.swift; sourceTree = "<group>"; };
 		83D6487228FDDE96007DB2D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +34,14 @@
 		83D6487728FDDE98007DB2D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83D6487928FDDE98007DB2D0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		83D6487C28FDDE98007DB2D0 /* gif_search.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gif_search.xcdatamodel; sourceTree = "<group>"; };
+		83D6488428FDE498007DB2D0 /* GiphyAPICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAPICalls.swift; sourceTree = "<group>"; };
+		83D6488728FDE67C007DB2D0 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		83D6488A28FDFA75007DB2D0 /* GifCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCellViewModel.swift; sourceTree = "<group>"; };
+		83D6488C28FDFBEE007DB2D0 /* GifListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifListViewModel.swift; sourceTree = "<group>"; };
+		83D6488E28FDFE4C007DB2D0 /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
+		83D6489228FE473B007DB2D0 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		83D6489428FEEC59007DB2D0 /* SaveModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveModal.swift; sourceTree = "<group>"; };
+		83D6489628FEF732007DB2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384109C5AFEB1DD76D5A45D6 /* Pods_gif_search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398A868473963036FDD3BA3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7953912D2C6E0025C9528FAC /* Pods_gif_search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83D6486428FDDE96007DB2D0 = {
 			isa = PBXGroup;
 			children = (
 				83D6486F28FDDE96007DB2D0 /* gif-search */,
 				83D6486E28FDDE96007DB2D0 /* Products */,
+				C873E3AF9EE85BBC8E6ED8CA /* Pods */,
+				398A868473963036FDD3BA3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +85,10 @@
 		83D6486F28FDDE96007DB2D0 /* gif-search */ = {
 			isa = PBXGroup;
 			children = (
+				83D6489628FEF732007DB2D0 /* Info.plist */,
+				83D6488928FDFA5C007DB2D0 /* ViewModels */,
+				83D6488628FDE667007DB2D0 /* Views */,
+				83D6488328FDE470007DB2D0 /* Controllers */,
 				83D6487028FDDE96007DB2D0 /* gif_searchApp.swift */,
 				83D6487228FDDE96007DB2D0 /* ContentView.swift */,
 				83D6487428FDDE98007DB2D0 /* Assets.xcassets */,
@@ -73,6 +107,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		83D6488328FDE470007DB2D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83D6488428FDE498007DB2D0 /* GiphyAPICalls.swift */,
+				83D6489228FE473B007DB2D0 /* ImageSaver.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83D6488628FDE667007DB2D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83D6488728FDE67C007DB2D0 /* Main.swift */,
+				83D6488E28FDFE4C007DB2D0 /* GifCell.swift */,
+				83D6489428FEEC59007DB2D0 /* SaveModal.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83D6488928FDFA5C007DB2D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				83D6488A28FDFA75007DB2D0 /* GifCellViewModel.swift */,
+				83D6488C28FDFBEE007DB2D0 /* GifListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C873E3AF9EE85BBC8E6ED8CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E500CC971BAE7DDF3F1D2 /* Pods-gif-search.debug.xcconfig */,
+				09C50CF4A7EDE02A5D55E05B /* Pods-gif-search.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D6488028FDDE98007DB2D0 /* Build configuration list for PBXNativeTarget "gif-search" */;
 			buildPhases = (
+				A7D193D8FD2D3CCFC97B4DF4 /* [CP] Check Pods Manifest.lock */,
 				83D6486928FDDE96007DB2D0 /* Sources */,
 				83D6486A28FDDE96007DB2D0 /* Frameworks */,
 				83D6486B28FDDE96007DB2D0 /* Resources */,
+				10EE6286E7981F81CFD81562 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,15 +211,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10EE6286E7981F81CFD81562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gif-search/Pods-gif-search-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gif-search/Pods-gif-search-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gif-search/Pods-gif-search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D193D8FD2D3CCFC97B4DF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gif-search-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83D6486928FDDE96007DB2D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D6488828FDE67C007DB2D0 /* Main.swift in Sources */,
 				83D6487A28FDDE98007DB2D0 /* Persistence.swift in Sources */,
 				83D6487328FDDE96007DB2D0 /* ContentView.swift in Sources */,
+				83D6488528FDE498007DB2D0 /* GiphyAPICalls.swift in Sources */,
+				83D6488B28FDFA75007DB2D0 /* GifCellViewModel.swift in Sources */,
+				83D6488F28FDFE4C007DB2D0 /* GifCell.swift in Sources */,
 				83D6487D28FDDE98007DB2D0 /* gif_search.xcdatamodeld in Sources */,
+				83D6489328FE473B007DB2D0 /* ImageSaver.swift in Sources */,
 				83D6487128FDDE96007DB2D0 /* gif_searchApp.swift in Sources */,
+				83D6489528FEEC59007DB2D0 /* SaveModal.swift in Sources */,
+				83D6488D28FDFBEE007DB2D0 /* GifListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -269,6 +391,7 @@
 		};
 		83D6488128FDDE98007DB2D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6E500CC971BAE7DDF3F1D2 /* Pods-gif-search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -278,11 +401,14 @@
 				DEVELOPMENT_TEAM = A9783DWAH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "gif-search/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,6 +424,7 @@
 		};
 		83D6488228FDDE98007DB2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C50CF4A7EDE02A5D55E05B /* Pods-gif-search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,11 +434,14 @@
 				DEVELOPMENT_TEAM = A9783DWAH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "gif-search/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  gif-search
 //
-//  Created by Lana Nguyen on 10/17/22.
+//  Created by Rhee on 10/17/22.
 //
 
 import CoreData
